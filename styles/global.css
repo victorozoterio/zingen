@@ -94,6 +94,11 @@ ul[role="list"] { /* Coloco a role="list" sempre que eu quiser usar uma lista se
     list-style: none;
 }
 
+img {
+    max-width: 100%;
+    display: inline-block;
+}
+
 @media (width >= 80em) {
     :root {
         --fs-lg: 2rem;
