@@ -57,8 +57,8 @@
         content: attr(aria-label);
         background: var(--btn-bg-color);
         -webkit-background-clip: text; /* deixa o background somente no texto (tipo um recorte) */
-        background-clip: text;
-        color: transparent;
+        background-clip: text; /* deixa o background somente no texto (tipo um recorte) */
+        color: transparent; /* remove a cor branca do texto */
         position: relative;
         z-index: 1;
     }
