@@ -53,7 +53,7 @@
         content: "";
         position: absolute;
         border-radius: inherit; /* herda a borda do pai */
-        inset: 1.5px; /* deixa todo o botão com a cor do background-color, exceto 1.5px */
+        inset: 1px; /* deixa todo o botão com a cor do background-color, exceto 1px */
         background-color: var(--bg-color);
     }
 
